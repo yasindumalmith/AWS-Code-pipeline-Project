@@ -49,7 +49,8 @@ def list_users():
     users = [
         {"id": 1, "name": "Alice", "role": "Admin"},
         {"id": 2, "name": "Bob", "role": "Editor"},
-        {"id": 3, "name": "Charlie", "role": "Viewer"}
+        {"id": 3, "name": "Charlie", "role": "Viewer"},
+        {"id": 3, "name": "John", "role": "Editor"}
     ]
     return jsonify(users)
 
